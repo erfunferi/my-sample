@@ -17,11 +17,12 @@
             </nav>
             <nav>
                 <ul>
-                    <li><a href="#">خانه</a></li>
+                    <li><a href="#home">خانه</a></li>
                     <li><a href="#aboutme">درباره من</a></li>
                     <li><a href="#skills">توانایی ها</a></li>
-                    <li><a href="#">نمونه کار</a></li>
-                    <li><a href="#">تماس با من</a></li>
+                    <li><a href="#workhistory">سابقه کار</a></li>
+                    <li><a href="#samples">نمونه کار</a></li>
+                    <li><a href="#contact">تماس با من</a></li>
                 </ul>
             </nav>
         </header>
@@ -79,68 +80,152 @@
                         </P>
                     </article>
                 </section>
-                <section>
+                <section class="progress">
                     <section>
-                        <dl>
-                            <dt>html</dt>
-                            <dd  class="progressbar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" ></dd>
-                        </dl>
-                        <div class="progress">
-                            <span class="skill">HTML <i class="val">60%</i></span>
-                            <div class="progress-bar-wrap">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                        <div class="progress">
-                            <span class="skill">css <i class="val">50%</i></span>
-                            <div class="progress-bar-wrap">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                        <div class="progress">
-                            <span class="skill">javascript<i class="val">40%</i></span>
-                            <div class="progress-bar-wrap">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>    
+                        <p>
+                            html: <progress id=p value="60" max=100></progress><span>60%</span>
+                        </p>
+                        <p>
+                            Css: <progress id=p value="50" max=100></progress><span>50%</span>
+                        </p>
+                        <p>
+                            Javascript: <progress id=p value="30" max=100></progress><span>30%</span>
+                        </p>
                     </section>
                     <section>
-                        <dl>
-                            <dt>html</dt>
-                            <dd  class="progressbar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" ></dd>
-                        </dl>
-                        <div class="progress">
-                            <span class="skill">React <i class="val">20%</i></span>
-                            <div class="progress-bar-wrap">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                        <div class="progress">
-                            <span class="skill">graphic desin <i class="val">80%</i></span>
-                            <div class="progress-bar-wrap">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                        <div class="progress">
-                            <span class="skill">javascript<i class="val">40%</i></span>
-                            <div class="progress-bar-wrap">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>    
+                        <p>
+                            React: <progress id=p value="20" max=100></progress><span>20%</span>
+                        </p>
+                        <p>
+                            Graphic Design: <progress id=p value="70" max=100></progress><span>70%</span>
+                        </p>
+                        <p>
+                            Editing: <progress id=p value="40" max=100></progress><span>40%</span>
+                        </p>        
                     </section>
                 </section>
             </section>
-               
-        </main>
+            <section id="workhistory" >
+                <div id="container-workhistory">
+                    <section>
+                        <h2>سوابق کاری</h2>
+                        <article>
+                            <p>
+                                خیلی خلاصه بخوام بگم،من کار های مختلفی انجام دادم
+                                همیشه به دنبال تجربه جدید بوده و هستم
+                                کار های تیمی برای من اولویت هست
+                                از اونجایی که میخواستم توانایی هایم را نشان دهم سخن کوتاه میکنم و در زیر به نمایش میدمشون
+                            </p>
+                        </article>
+                    </section>
+                    <section>
+                        <div>
+                            <div>
+                                <hgroup>
+                                    <h4>توسعه دهنده وب</h4>
+                                    <h5>1402-تاکنون</h5>
+                                </hgroup>
+                                <p>
+                                    اواخر سال 1400 وارد دوره سربازی شدم و در اواخر سال 1401 به ثبات 
+                                    رسیدم و توانستم  وارد حوزه توسعه وب شوم
+                                </p>
+                                <p>
+                                    همه کورس ها را از سایت udemy استفاده کردم و تلاش کردم زبانم را هم بهتر کنم
+                                </p>
+                            </div>
+                            <div>
+                                <hgroup>
+                                    <h4>طراح گرافیک</h4>
+                                    <h5>1397-تاکنون</h5>
+                                </hgroup>    
+                                <p>
+                                    به صورت فریلنس شروع به کار کردم اما به مرور تجربه ام بیشتر شد و موفق شدم برای تئاتر
+                                    و تیم انیمیشن &laquo;شاد انیمیشن&raquo; کار طراحی گرافیک انجام دهم
+                                </p>
+                                <ul>
+                                    <li>طراحی لوگو</li>
+                                    <li>طراحی کارت ویزیت</li>
+                                    <li>طراحی پوستر تئاتر</li>
+                                    <li>طراحی محتوای مجازی</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <hgroup>
+                                    <h4>نویسنده، تدوینگر و صداگذار انیمیشن</h4>
+                                    <h5>1399-1400</h5>
+                                </hgroup>    
+                                <p>
+                                    انیمیشن بیلخانیان به کارگردانی محسن میرزاخانی در اینستاگرام پخش شدم
+                                    در اینکار بیشتر در تیم نویسندگان و صداگذارها بودم و در شاد انیمیشن کار میکردم
+                                </p>
+                                <p>
+                                    در اینکار تولید محتوای تصویری اینستاگرام نیز بر عهده من بود
+                                </p>
+                            </div>
+                            <div>
+                                <hgroup>
+                                    <h4>بازیگر تئاتر</h4>
+                                    <h5>1398</h5>
+                                </hgroup>    
+                                <p>
+                                    در سال 1398 تئاتر دراکولای سفید به کارگدانی محسن میرزاخانی و تهیه کنندگی حسام آهنگر در مجموعه هنری شهرزاد به روی صحنه رفت
+                                    در این تئاتر به عنوان نقش مکمل در برابر بازیگرانی همچون متین ستوده و سمیرا حسینی ایفای نقش کردم
+                                </p>
+                                <p>
+                                    بخشی از طراحی محتوای مجازی و طراحی پوستر سالن شهرزاد بر عهده من بود
+                                </p>
+                            </div>
+                        </div>     
+                    </section>
+                </div>
+            </section> 
+            <section id="samples">
+                <div class="container-s">
+                    <section>
+                        <h2>نمونه کارها</h2>
+                        <article>  
+                            <p>
+                                بعد از حدود 5 سال به صورت جسته و گریخته کار های گرافیکی انجام دادن
+                                تعداد زیادی کار انجام دادم و نمونه کار های زیادی دارم
+                                میدونم که نباید ایستاد و باید بیشتر یاد گرفت
+                                طراحی همواره در حال پیشرفت و باید به روز بود
+                                چند تا از کارهایم را برایتان گذاشتم تا با هم ببینیم
+                            </p>
+                        </article>
+                    </section>
+                    <section>
+                        <img src="Untitled-1 noise.jpg" alt="لوگو شرکت رایادارو">
+                        <img src="Untitled-Q2.jpg" alt="لوگوعکاسی آنهال ">
+                        <img src="asghar akh.jpg" alt="لوگو کافه کنج">
+                        <img src="no 2.jpg" alt="لوگو مشاورین املاک اسپرلوس">
+                        <img src="4.jpg" alt="لوگو رزین سازی مگ">
+                        <img src="asli.png" alt="لوگو هایپار مارکت های زنجیره ای بهار">
+                        <img src="poster 1 saade.jpg" alt="پوستر تئاتر دراکولا سفید">
+                    </section>
+                </div>
+            </section>
+            <section id="contact">
+                <section>
 
+                </section>
+                <section>
+
+                </section>
+            </section>
+
+        </main>
+        <footer>
+            <p>
+                طراحی شده توسط عرفان فهرستی
+                
+            </p>
+            <aside> نمونه طراحی سایت</aside>
+        </footer>
         <script src="sample1.js"></script>
     </body>
 </html> 
 
 
 
-                    <!-- <P>
-                        از وقتی که به یاد دارم علاقه خاصی به تکنولوژی و هنر داشته ام و چه چیزی بهتر از طراحی سایت، که باتوجه به تجربه ام در زمینه
-                        طراحی گرافیک به نظرم بهترین موقعیت بود 
-                        در زیر تلاش کردم واضح تر بهتون توضیح بدم
-                    </P> -->
